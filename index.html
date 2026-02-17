@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naman Agarwal | CSE Portfolio</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<script>
+document.getElementById("themeToggle").addEventListener("click", () => {
+    document.body.classList.toggle("dark");
+});
+</script>
+
+
+<body>
+
+    <nav class="top-bar">
+        <button id="themeToggle" class="theme-toggle">◐</button>
+        <span class="logo">◎</span>
+        <div class="nav-links">
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#awards">Awards</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <main class="page">
+        <div class="container">
+
+            <section class="card hero-card">
+                <div class="window-bar">
+                    <span></span><span></span><span></span>
+                </div>
+
+                <div class="hero-grid">
+                    <div class="hero-text">
+                        <h1>Hello.<br>I’m Naman.</h1>
+
+                        <p>
+                            Computer Science Engineering student interested in
+                            AI, Cloud Systems, and Software Engineering.
+                        </p>
+
+                        <div class="hero-actions">
+                            <a href="resume.pdf" target="_blank" class="btn">View Resume</a>
+                            <a href="resume.pdf" download class="btn">Download Resume</a>
+                        </div>
+                    </div>
+
+                    <div class="hero-meta">
+                        <div>
+                            <strong>Role</strong>
+                            <span>CSE Undergraduate</span>
+                        </div>
+                        <div>
+                            <strong>Focus</strong>
+                            <span>AI · Cloud · Systems</span>
+                        </div>
+                        <div>
+                            <strong>University</strong>
+                            <span>MIT-WPU</span>
+                        </div>
+                        <div>
+                            <strong>Status</strong>
+                            <span>Open to Internships</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="card profile">
+                <div class="window-bar">
+                    <span></span><span></span><span></span>
+                </div>
+
+                <div class="profile-grid">
+                    <div class="profile-img">
+                        <img src="images/profile.jpg" alt="Profile Photo">
+                    </div>
+
+                    <div class="profile-content">
+                        <h2>About Me</h2>
+                        <p>
+                            I am a Computer Science Engineering student with a strong foundation in
+                            software development, artificial intelligence, and data-driven systems.
+                            I enjoy building scalable applications, solving real-world problems using
+                            machine learning, and working on technically challenging projects through
+                            hackathons, research initiatives, and academic work.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects" class="card">
+                <div class="window-bar">
+                    <span></span><span></span><span></span>
+                </div>
+
+                <h2>Projects</h2>
+
+                <div class="project window">
+                    <h3>AI-Driven Cloud Drug Management System</h3>
+                    <p class="meta">HackMIT-WPU’25 · AWS Re’forge · Runners-up</p>
+                    <p>
+                        Cloud-based drug inventory and supply chain system using AWS.
+                        Integrated AI-based demand forecasting, IoT storage monitoring,
+                        and blockchain-backed traceability.
+                    </p>
+                </div>
+
+                <div class="project window">
+                    <h3>Explainable AI-Based Supply Chain Analytics</h3>
+                    <p class="meta">1st Place · Intelligent Agents Track</p>
+                    <p>
+                        Built Random Forest models to predict late delivery risk and
+                        order profitability. Achieved 72.4% accuracy and 0.998 R².
+                        Implemented SHAP for transparent model explainability.
+                    </p>
+                </div>
+
+                <div class="project window">
+                    <h3>All-Sky Camera System</h3>
+                    <p class="meta">Raspberry Pi · Image Processing</p>
+                    <p>
+                        Developed an automated night-sky monitoring system using Raspberry Pi 5.
+                        Implemented continuous sky imaging and data visualization pipelines.
+                    </p>
+                </div>
+            </section>
+
+            <section class="two-col" id="education">
+
+                <div class="card">
+                    <div class="window-bar">
+                        <span></span><span></span><span></span>
+                    </div>
+
+                    <h2>Education</h2>
+
+                    <div class="edu">
+                        <h3>MIT World Peace University, Pune</h3>
+                        <p>B.Tech – Computer Science & Engineering</p>
+                        <p class="meta">2023 – 2027 · CGPA: 8.77 / 10</p>
+                    </div>
+
+                    <div class="edu">
+                        <h3>SVP Junior College of Science, Mumbai</h3>
+                        <p>HSC (MSBSHSC)</p>
+                        <p class="meta">2023 · 79.50%</p>
+                    </div>
+
+                    <div class="edu">
+                        <h3>Swami Vivekanand International School, Mumbai</h3>
+                        <p>ICSE</p>
+                        <p class="meta">2021 · 98.40%</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="window-bar">
+                        <span></span><span></span><span></span>
+                    </div>
+
+                    <h2>Skills</h2>
+
+                    <div class="skills-group">
+                        <h4>Programming</h4>
+                        <div class="chips">
+                            <span>C++</span><span>Python</span><span>Java</span><span>SQL</span>
+                        </div>
+                    </div>
+
+                    <div class="skills-group">
+                        <h4>Web & Cloud</h4>
+                        <div class="chips">
+                            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>AWS</span>
+                        </div>
+                    </div>
+
+                    <div class="skills-group">
+                        <h4>AI / Data</h4>
+                        <div class="chips">
+                            <span>Machine Learning</span><span>Random Forest</span><span>SHAP</span>
+                        </div>
+                    </div>
+
+                    <div class="skills-group">
+                        <h4>Tools</h4>
+                        <div class="chips">
+                            <span>Git</span><span>Linux</span><span>VS Code</span><span>Raspberry Pi</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="awards" class="card">
+                <div class="window-bar">
+                    <span></span><span></span><span></span>
+                </div>
+
+                <h2>Awards & Achievements</h2>
+
+                <ul class="awards">
+                    <li>🥈 Runners-up — HackMIT-WPU’25 (AWS Re’forge)</li>
+                    <li>🥈 Runners-up — HackMIT-WPU’25 (COSMOTRON)</li>
+                    <li>🥇 1st Place — Intra-Department Project Competition</li>
+                </ul>
+            </section>
+
+            <section id="contact" class="card">
+                <div class="window-bar">
+                    <span></span><span></span><span></span>
+                </div>
+
+                <h2>Contact</h2>
+                <p>Email: ncgagarwal@gmail.com</p>
+                <p>Phone: +91 93215 75673</p>
+                <p>Location: Mumbai, India</p>
+            </section>
+        </div>
+        
+    </main>
+    <footer class="site-footer">
+        <p>© 2026 Naman Agarwal · Portfolio</p>
+    </footer>
+
+</body>
+</html>
