@@ -65,3 +65,21 @@ form.addEventListener("submit", function (e) {
         closeForm();
     }
 });
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const toggle = document.getElementById("themeToggle");
+
+    if (toggle) {
+        toggle.addEventListener("click", function () {
+            document.body.classList.toggle("dark");
+
+            // Optional icon switch
+            if (document.body.classList.contains("dark")) {
+                toggle.textContent = "☀️";
+            } else {
+                toggle.textContent = "◐";
+            }
+        });
+    }
+});
